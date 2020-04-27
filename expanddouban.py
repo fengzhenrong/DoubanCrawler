@@ -2,9 +2,9 @@ from selenium import webdriver
 import time 
 
 """
-url: the douban page we will get html from
-loadmore: whether or not click load more on the bottom 
-waittime: seconds the browser will wait after initial load and 
+@param:url，URL链接
+@param:loadmore，是否可以点击点击加载更多按钮来显示更多内容，默认False
+@param:waittime，初始加载后浏览器将等待的秒数 ，默认2秒
 """ 
 def getHtml(url, loadmore = False, waittime = 2):
     browser = webdriver.Chrome('chromedriver')
