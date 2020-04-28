@@ -11,7 +11,7 @@
 ### 运行环境
 Python3.7
 
-Chorome浏览器
+Chrome浏览器
 
 ### 依赖库
 selenium webdriver
